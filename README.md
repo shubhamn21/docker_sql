@@ -16,7 +16,7 @@ Install docker, mysql
 # Steps to update database to git (when container is running):
 1. RUN ```mysqldump --column-statistics=0 -h 0.0.0.0 -u sh_admin -p -B student_helper> mysql_backup/sh_dump.sql```
 2. ```git add mysql_backup/sh_dump.sql```
-3. ```git commit -m "DB dump commit"
+3. ```git commit -m "DB dump commit```
 4. ```git push```
 
 
